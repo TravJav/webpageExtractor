@@ -60,6 +60,9 @@ jta.setBorder(new LineBorder(Color.BLUE));
     /*
     
     JOptionPane gets webpage address creates URL connection and appends to JtextArea
+    
+    
+    System out is used for debugging in the future or when i add more of a GUI and need to track my work for bugs
      */
     public void getData() throws MalformedURLException, IOException, BadLocationException {
 
@@ -132,7 +135,7 @@ jta.setBorder(new LineBorder(Color.BLUE));
 
         }
 
-        //  }
+       
     }
 
     public static void main(String[] args) throws IOException, MalformedURLException, BadLocationException {
@@ -141,8 +144,8 @@ jta.setBorder(new LineBorder(Color.BLUE));
         
         
         
-        //Gerardo g = new Gerardo();
-       // g.getData();
+        Gerardo g = new Gerardo();
+        g.getData();
 
     }
 
